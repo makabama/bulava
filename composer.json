@@ -1,0 +1,17 @@
+{
+    "name": "makabama/bulava",
+    "authors": [
+        {
+            "name": "Maksym Maksymenko",
+            "email": "m.maksymenko@makabama.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Makabama\\Bulava\\BulavaServiceProvider"
+            ]
+        }
+    }
+}
