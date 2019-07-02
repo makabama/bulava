@@ -1,11 +1,19 @@
 {
     "name": "makabama/bulava",
+    "license": "MIT",
     "authors": [
         {
             "name": "Maksym Maksymenko",
             "email": "m.maksymenko@makabama.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Makabama\\Bulava\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {},
     "extra": {
         "laravel": {
